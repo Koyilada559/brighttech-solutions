@@ -3,7 +3,6 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BrightTech Solutions</title>
-    <!-- GitHub Pages deployment test -->
 
     <style>
         body {
@@ -55,13 +54,19 @@
         }
 
         .card {
-            background: white;
-            padding: 25px;
-            flex: 1;
-            min-width: 200px;
-            border-radius: 10px;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-        }
+    background: white;
+    padding: 30px;
+    flex: 1;
+    min-width: 200px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+}
 
         .card h3 {
             color: #1e3a8a;
